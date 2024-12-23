@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Sharon Huang"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="robots" content="index,follow"> 
+    <meta name="rating" content="General">
+    <base target="_self">
+    <meta name="description" content=""> 
+    <title>Data Structure - Circular Queue</title>
+    <link rel="stylesheet" href="./styles/style.css">
+    <!-- D3.js Version 7 -->
+    <script src="https://cdn.jsdelivr.net/npm/d3@7"></script>
+</head>
+<body>
+    <div class="bigBox" style="text-align:center;"> 
+        <center>
+            <h1>Data Structure</h1> 
+            <h2>Circular Queue</h2> 
+        </center>
+  
+        <!-- Controlling the layout of SVG elements can only be done by setting styles within the parent tags; the CSS file cannot control it! -->
+        <!-- https://stackoverflow.com/questions/8639383/how-do-i-center-an-svg-in-a-div -->
+        <svg></svg>
+
+        <div class="inputCircularQueueData">
+            <h3>Please enter a value :&nbsp;&nbsp;</h3>
+            <input type="number" class="inputData">
+        </div>
+
+        <h3 class="statusMsg"></h3>
+        
+        <div class="showCircularQueueDataLeft">
+            <div class="listText">
+                <h3>List :&nbsp;&nbsp;&nbsp;&nbsp;</h3>
+                <h3 class="listData"></h3>
+            </div>     
+
+            <div class="frontText">
+                <h3>Front :&nbsp;&nbsp;</h3>
+                <h3 class="front"></h3>
+            </div>       
+
+            <div class="rearText">
+                <h3>Rear :&nbsp;&nbsp;&nbsp;</h3>
+                <h3 class="rear"></h3>
+            </div>             
+        </div>
+
+        <div class="showCircularQueueDataRight">
+            <input type="button" value="Enqueue" class="EnqueueBtn">
+            <input type="button" value="Dequeue" class="DequeueBtn">
+            <input type="button" value="Add" class="AddBtn">
+            <input type="button" value="Sub" class="SubBtn">
+            <input type="button" value="FrontItem" class="FrontItemBtn">
+            <input type="button" value="Clear Queue" onclick="ClearQueue()">
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>

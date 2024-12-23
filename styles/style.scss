@@ -1,0 +1,87 @@
+body{
+    background-color: #D0D0D0;
+    .bigBox{
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;       
+        width: 600px; 
+        height: 900px;
+        position: relative;
+        // outline: 1px solid red;
+        center{
+            h1{
+                color: green;
+            }
+            h2{
+                color: #010101;
+            }
+        }
+        svg{
+            width: 300px; 
+            height: 300px;
+            transform: rotate(180deg);
+            margin-top: -45px;
+            // outline: 1px solid green;
+        }
+        .inputCircularQueueData{
+            display: flex;
+            margin-top: -30px;
+            h3{
+                color: #010101;
+            }
+            .inputData{
+                width: 100px;
+                height: 20px;
+                margin-top: 18px;
+            }
+        }
+        .statusMsg{
+            color: #FF0000;
+            margin-top: 0px ;
+            // outline: 1px solid blue;
+        } 
+        .showCircularQueueDataLeft{
+            width: 250px; 
+            display: flex;
+            flex-direction: column;
+            align-self: flex-start;
+            margin-top: -15px;
+            margin-left: 130px;
+            // outline: 1px solid blue;
+            .listText, .frontText, .rearText{
+                display: flex;
+                // outline: 1px solid green;
+                h3{
+                    color: #010101;
+                }
+                .listData, .front, .rear{
+                    color: 	#0000E3;
+                    // outline: 1px solid red;
+                }
+            }  
+        }
+        .showCircularQueueDataRight{
+            width: 100px; 
+            display: flex;
+            flex-direction: column;
+            position: absolute;
+            right: 80px;
+            bottom: 200px;
+            margin-right: 50px;
+            // outline: 1px solid green;
+            input{
+                border-radius: 10px;
+                margin-bottom: 10px;
+                height: 30px;
+                background-color: green;
+                color:  #fff;
+                transition: 1s;
+            }
+            input:hover{
+                background-color: #fc6;
+                color: #000;
+            }    
+        }
+    }
+}

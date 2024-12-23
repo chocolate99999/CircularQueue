@@ -1,0 +1,78 @@
+body {
+  background-color: #D0D0D0;
+}
+body .bigBox {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 600px;
+  height: 900px;
+  position: relative;
+}
+body .bigBox center h1 {
+  color: green;
+}
+body .bigBox center h2 {
+  color: #010101;
+}
+body .bigBox svg {
+  width: 300px;
+  height: 300px;
+  transform: rotate(180deg);
+  margin-top: -45px;
+}
+body .bigBox .inputCircularQueueData {
+  display: flex;
+  margin-top: -30px;
+}
+body .bigBox .inputCircularQueueData h3 {
+  color: #010101;
+}
+body .bigBox .inputCircularQueueData .inputData {
+  width: 100px;
+  height: 20px;
+  margin-top: 18px;
+}
+body .bigBox .statusMsg {
+  color: #FF0000;
+  margin-top: 0px;
+}
+body .bigBox .showCircularQueueDataLeft {
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  align-self: flex-start;
+  margin-top: -15px;
+  margin-left: 130px;
+}
+body .bigBox .showCircularQueueDataLeft .listText, body .bigBox .showCircularQueueDataLeft .frontText, body .bigBox .showCircularQueueDataLeft .rearText {
+  display: flex;
+}
+body .bigBox .showCircularQueueDataLeft .listText h3, body .bigBox .showCircularQueueDataLeft .frontText h3, body .bigBox .showCircularQueueDataLeft .rearText h3 {
+  color: #010101;
+}
+body .bigBox .showCircularQueueDataLeft .listText .listData, body .bigBox .showCircularQueueDataLeft .listText .front, body .bigBox .showCircularQueueDataLeft .listText .rear, body .bigBox .showCircularQueueDataLeft .frontText .listData, body .bigBox .showCircularQueueDataLeft .frontText .front, body .bigBox .showCircularQueueDataLeft .frontText .rear, body .bigBox .showCircularQueueDataLeft .rearText .listData, body .bigBox .showCircularQueueDataLeft .rearText .front, body .bigBox .showCircularQueueDataLeft .rearText .rear {
+  color: #0000E3;
+}
+body .bigBox .showCircularQueueDataRight {
+  width: 100px;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  right: 80px;
+  bottom: 200px;
+  margin-right: 50px;
+}
+body .bigBox .showCircularQueueDataRight input {
+  border-radius: 10px;
+  margin-bottom: 10px;
+  height: 30px;
+  background-color: green;
+  color: #fff;
+  transition: 1s;
+}
+body .bigBox .showCircularQueueDataRight input:hover {
+  background-color: #fc6;
+  color: #000;
+}/*# sourceMappingURL=style.css.map */
