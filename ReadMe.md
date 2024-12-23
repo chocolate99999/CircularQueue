@@ -13,12 +13,12 @@ This project demonstrates the implementation and visualization of a **Circular Q
 - Display the current state of the queue.
 - Visualize the queue data on a donut chart.
 
-The application is built using HTML, CSS, and JavaScript.
+The application is built using **HTML**, **CSS**, and **JavaScript**, and leverages the **D3.js** library for data visualization.
 
 ## Features
 
 - **Dynamic Queue Operations**: Add and remove elements with visual feedback.
-- **Donut Chart Visualization**: Displays the queue data as a dynamic donut chart.
+- **Donut Chart Visualization**: Displays the queue data as a dynamic donut chart using **D3.js**.
 - **Interactive UI**: Easily interact with the queue through an intuitive interface.
 
 ## Project Structure
@@ -101,8 +101,8 @@ CircularQueue/
 2. **Dequeue Operation**:
     - Removes an element from the position indicated by the `Front` index.
     - Updates the visualization.
-3. **Visualization**:
-    - Data is rendered on a donut chart, showing the queue's current state.
+3. **Visualization**:  
+    - Data is rendered on a donut chart using **D3.js**, showing the queue's current state.  
 
 ## Limitations
 
